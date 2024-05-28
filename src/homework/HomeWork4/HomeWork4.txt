@@ -1,0 +1,65 @@
+Task 1: Basic String Operations
+Create a string variable with the value.
+Print the length of the string.
+Convert the string to uppercase and print it.
+Convert the string to lowercase and print it.
+Extract and print the substring "World" from the string.
+
+Task 2: String Concatenation
+Create many string variables.
+Concatenate the strings with a space or another charecter in between and print the result.
+
+Task 3: String Interpolation
+Create variables for  your personal data (name, age, profession, etc..).
+Use string interpolation to create and print a sentence like "John is 30 years old ,{other data}."
+
+Task 4: Searching Within Strings
+Create a string variable with the value at some interesting text at blog(large interesting text).
+Check if the string contains the word (some word's) and print the result.
+Find the index of the words and print them.
+
+Task 5: Splitting Strings
+Create a string variable with a list of comma-separated values, e.g., "apple,banana,orange" , "C# , Java , JavaScript , Pyton etc...".
+Split the string into an [array] of individual fruit names or profession languages and print each fruit on a new line.
+
+Task 6: Replacing Substrings
+Create a string variable with the value like "I love programming in Java" and Replace "Java" with "C#" and print the result.
+
+Task 7: Trimming Strings
+Create a string variable with the value " Hello, World! ".
+Trim the leading and trailing whitespace and print the result.
+
+Task 8: Checking for Null or Empty Strings
+Create two string variables: one with a non-empty value and one with an empty value.
+Use string.IsNullOrEmpty to check each string and print the result.
+Use string.IsNullOrWhiteSpace and get practice diffs between string.IsNullOrEmpty and string.IsNullOrWhiteSpace
+
+Task 9: String Comparison
+Create two string variables with different casing, e.g., "hello" and "HELLO".
+Compare the strings using different values from StringComparison  and print whether they are equal.
+
+Task 10: GetHashCode
+Objective: Understand that strings with the same content produce the same hash code.
+
+Create two string variables str1 and str2 with the same content, e.g., "hello".
+Create a third string variable str3 with different content, e.g., "world".
+Get the hash codes of all three strings using the GetHashCode method.
+Print the hash codes and compare them.
+
+Task 11: ReferenceEquals
+Create two string variables str1 and str2 with the same content, e.g., "TTT".
+Create a third string variable str3 using new keyword with the same content as str1, e.g., new string('TTT',3).
+Use the ReferenceEquals method to compare str1 and str2, and then str1 and str3.
+Print the results.
+
+Task 12: Equals
+Create two string variables str1 and str2 with the same content, e.g., "hello".
+Create a third string variable str3 with different content, e.g., "world".
+Use the Equals method to compare str1 with str2, and str1 with str3.
+Print the results.
+
+Task 13: == Operator
+Create two string variables str1 and str2 with the same content, e.g., "hello".
+Create a third string variable str3 with different content, e.g., "world".
+Use the == operator to compare str1 with str2, and str1 with str3.
+Print the results.

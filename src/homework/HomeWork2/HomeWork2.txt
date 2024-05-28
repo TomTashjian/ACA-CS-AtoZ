@@ -1,0 +1,27 @@
+Task 1.1: User Information (Separate Lines)
+Objective: Create a console application that asks the user for their name, surname, age, and profession and prints them in the console in separate lines.
+
+Task 1.2: User Information (Same Line)
+Objective: Create a console application that asks the user for their name, surname, age, and profession and prints them in the console on the same line.
+
+Task 1.3: Calculate Age
+Objective: Create a console application that asks the user for their year of birth and calculates their age.
+
+Task 1.4: Calculate Year of Birth
+Objective: Create a console application that asks the user for their age and calculates their year of birth.
+
+
+
+Task 2.1: Change Console Background and Foreground Color
+Objective: Create a console application that changes the background and foreground color of the console.
+
+Task 2.2: Clear the Console
+Objective: Create a console application that writes a message to the console, waits for user input, and then clears the console.
+
+Task 2.3: Change Console Title
+Objective: Create a console application that changes the title of the console.
+
+Task 2.4: Beep Sound
+Objective: Create a console application that makes the console beep.
+
+Task 2.5:Try to print on the console Some interesting design(like an image or something else)

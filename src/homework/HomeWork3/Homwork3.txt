@@ -1,0 +1,24 @@
+Task 1: Implicit Conversion
+Create two variables: one of type int and one of type double.
+Assign a value to the int variable.
+Assign the int variable to the double variable (implicit conversion).
+Print both variables to see the result.
+
+Task 2: Explicit Conversion (Casting)
+Create a variable of type double and assign it a value.
+Cast the double variable to an int variable (explicit conversion).
+Print both variables to see the result.
+
+Task 3: Using Convert Class
+Create a string variable that contains a numeric value.
+Use Convert.ToInt32 to convert the string to an int.
+Print the original string and the converted integer.
+
+Task 4: Using int.Parse and int.TryParse
+Create a string variable that contains a numeric value.
+Use int.Parse to convert the string to an int.
+Create another string variable that contains a non-numeric value.
+Use int.TryParse to attempt to convert the non-numeric string to an int, handling the case where the conversion fails.
+Print the results.
+
+Task 5: Use Casting to cast each data type to another data types

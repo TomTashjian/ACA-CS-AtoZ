@@ -1,0 +1,33 @@
+Task 1)Create a new solution and projects with Visual Studio or other IDE:
+
+#Steps:
+Open Visual Studio: Start by opening your Visual Studio application.
+Create a New Project: On the start window, select Create a new project.
+Search for Blank Solution: On the Create a new project page, type blank solution into the search box.
+Select the Blank Solution Template: From the search results, select the Blank Solution template, and then select Next.
+Name the Solution: Enter a name for your solution in the Name field.
+Choose the Location: Specify the location where you want to save your solution in the Location field.
+Create the Solution: Finally, select Create to create your new solution.
+Now, you have an empty solution. You can add new or existing projects to this solution as needed. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
+
+To add a new project to the solution, follow these steps:
+
+Right-click on the Solution: In the Solution Explorer, right-click on the solution you just created.
+Add New Project: Select Add > New Project.
+Select a Project Template: Choose a template for your new project based on the type of project you want to create etc Console.
+Name the Project: Enter a name for your project in the Name field.
+Choose the Location: Specify the location where you want to save your project in the Location field.
+Create the Project: Finally, select Create to create your new project.
+
+
+Task 1.1) Add many Projects in the Same solution(Like Project1, Project2 ...)
+Task 1.2) Try to add a few projects with the same names
+Task 1.3) Create many solutions with many projects
+Task 1.4) Try to add a few Solutions with the same names
+
+
+Task 2) Please research all Basic data types(int, double, char , string ....), explore documentation in Microsoft page
+Task 2.1) Declare each Data type and assign some values
+Task 2.2) Create Solution Per each data type(int, double, char, string ....) Like for int type- "IntSolution" and add Projects with many cases using an integer data type
+
+Please build Solution examples and send them to me with direct messages in Slack
