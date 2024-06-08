@@ -1,0 +1,45 @@
+Task 1: Find the Largest Number
+Objective: Use a loop to find the largest number in an array.
+Task: Write a program that reads 10 integers from the user and finds the largest number among them.
+
+Task 2: Count Occurrences of a Character
+Objective: Use a loop to count occurrences of a specific character in a string.
+Task: Write a program that reads a string and a character from the user and counts how many times the character appears in the string.
+
+Task 3: Average of Numbers
+Objective: Use a loop to calculate the average of a set of numbers.
+Task: Write a program that reads 50 integers from the user and calculates their average.
+
+Task 4: Check Palindrome
+Objective: Use a loop to check if a string is a palindrome.
+Task: Write a program that reads a string from the user and checks if it is a palindrome.
+
+Task 5: Print Even Numbers
+Objective: Use a loop to print even numbers within a specified range.
+Task: Write a program that reads two integers (start and end) from the user and prints all even numbers in that range.
+
+Task 6: Armstrong Number
+Objective: Use loops to determine if a number is an Armstrong number.
+Task: Write a program that reads an integer from the user and checks if it is an Armstrong number (a number that is equal to the sum of its own digits each raised to the power of the number of digits).
+
+Task 7: Sum of Even Digits
+Objective: Use a loop to find the sum of even digits of a number.
+Task: Write a program that reads an integer from the user and prints the sum of its even digits.
+
+Task 8: Generate Random Numbers
+Objective: Use a loop to generate and print random numbers.
+Task: Write a program that generates 10 random numbers between 1 and 100 and prints them.
+
+Task 9: Count Words in a Sentence
+Objective: Use a loop to count the number of words in a sentence.
+Task: Write a program that reads a sentence from the user and counts the number of words in the sentence.
+
+Task 10: Number Guessing Game
+Objective: Implement a simple number guessing game.
+Task: Write a program where the computer randomly selects a number between 1 and 100.
+The user has to guess the number. The program should provide feedback if the guess is too high or too low until the user guesses the correct number.
+ 
+Task 11: Rock, Paper, Scissors Game
+Objective: Implement a simple Rock, Paper, Scissors game.
+Task: Write a program where the user plays Rock, Paper, Scissors against the computer. The computer randomly selects one of the options, and the user inputs their choice. The program then determines the winner.
+ 
