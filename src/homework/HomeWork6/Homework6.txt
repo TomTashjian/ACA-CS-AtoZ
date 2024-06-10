@@ -1,0 +1,39 @@
+Task 1: Basic For Loop
+Objective: Practice using a basic for loop.
+Task: Write a program that prints the numbers from 1 to 10 using a for loop.
+
+Task 2: Sum of First N Natural Numbers
+Objective: Calculate the sum of the first N natural numbers using a loop.
+Task: Write a program that reads an integer N from the user and prints the sum of the first N natural numbers.
+
+Task 3: Multiplication Table
+Objective: Generate a multiplication table using nested loops.
+Task: Write a program that prints the multiplication table for numbers 1 to 10.
+
+Task 4: Reverse a String
+Objective: Use a loop to reverse a string.
+Task: Write a program that reads a string from the user and prints the reversed string.
+
+Task 5: Count Vowels in a String
+Objective: Use a loop to count the number of vowels in a string.
+Task: Write a program that reads a string from the user and counts the number of vowels (a, e, i, o, u) in the string.
+
+Task 6: Find Factorial
+Objective: Calculate the factorial of a number using a loop.
+Task: Write a program that reads an integer N from the user and prints the factorial of N.
+
+Task 7: Fibonacci Sequence
+Objective: Generate Fibonacci sequence using a loop.
+Task: Write a program that reads an integer N from the user and prints the first N numbers in the Fibonacci sequence.
+
+Task 8: Prime Numbers
+Objective: Identify prime numbers within a range using loops.
+Task: Write a program that reads two integers (start and end) from the user and prints all prime numbers in that range.
+
+Task 9: Pattern Printing
+Objective: Print patterns using nested loops.
+Task: Write a program that prints a pyramid pattern of stars with N levels.
+
+Task 10: Sum of Digits
+Objective: Calculate the sum of the digits of a number using a loop.
+Task: Write a program that reads an integer from the user and prints the sum of its digits.
