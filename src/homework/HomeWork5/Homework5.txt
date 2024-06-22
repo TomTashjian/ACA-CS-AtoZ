@@ -1,0 +1,114 @@
+Task 1: Basic if Statement
+Create a variable number and assign it a value.
+Use an if statement to check if number is greater than 10.
+If it is, print "The number is greater than 10."
+
+Task 2: if-else Statement
+Create a variable number and assign it a value.
+Use an if-else statement to check if number is even or odd.
+Print "The number is even" or "The number is odd" based on the condition.
+
+Task 3: Nested if Statements
+Create a variable number and assign it a value.
+Use nested if statements to check the range of the number:
+If number is greater than 0, check if it is less than 50.
+Print appropriate messages for each range.
+
+Task 4: if-else if-else Ladder
+Create a variable score and assign it a value.
+Use an if-else if-else ladder to print grades based on the score:
+>= 90: "A"
+>= 80: "B"
+>= 70: "C"
+>= 60: "D"
+< 60: "F"
+
+Task 5: switch Statement with Integers
+Create a variable day and assign it a value between 1 and 7.
+Use a switch statement to print the day of the week based on the value of day.
+
+Task 6: switch Statement with Strings
+Create a variable command and assign it a value ("start", "stop", "pause", "resume").
+Use a switch statement to print appropriate messages based on the value of command.
+
+Task 7: Complex Nested if Statements
+Create variables age and hasLicense.
+Use nested if statements to check if:
+age is greater than or equal to 18.
+hasLicense is true.
+Print "Can drive" if both conditions are met; otherwise, print appropriate messages.
+
+Task 8: if with Logical Operators
+Create variables temperature and isRaining.
+Use an if statement with logical operators to check if:
+temperature is greater than 20 and isRaining is false.
+Print "Good weather for a walk" if the condition is met; otherwise, print "Stay indoors".
+
+Task 9: switch with Fall-through
+Create a variable level and assign it a value between 1 and 3.
+Use a switch statement to print messages for each level:
+Level 1: "Level 1: Beginner"
+Level 2: "Level 2: Intermediate"
+Level 3: "Level 3: Advanced"
+For any other value, print "Invalid level".
+
+Task 10: Nested if with Multiple Conditions
+Create variables a, b, and c.
+Use nested if statements to find and print the largest number among a, b, and c.
+
+
+Task 11: Combining if-else and switch
+Create a variable menuOption and assign it a value between 1 and 3.
+Use an if-else statement to check if the menuOption is valid (between 1 and 3).
+If valid, use a switch statement to print the corresponding menu option:
+1: "Start Game"
+2: "Load Game"
+3: "Exit"
+
+Task 12: Determine if a Number is Positive, Negative, or Zero
+Create a variable num and assign it a value.
+Use an if-else if-else statement to determine if the number is positive, negative, or zero.
+Print the result.
+
+Task 13: Grade Categorization
+Create a variable grade and assign it a value.
+Use an if-else if-else statement to categorize the grade into "Excellent", "Good", "Average", "Poor", and "Fail".
+Print the appropriate category based on the grade.
+
+Task 14: Age Group Classification
+Create a variable age and assign it a value.
+Use an if-else if-else statement to classify the age into "Child", "Teenager", "Adult", and "Senior".
+Print the appropriate age group based on the age.
+
+Task 15: Determine the Largest of Four Numbers
+Create four variables a, b, c, and d and assign them values.
+Use nested if statements to find and print the largest value among the four numbers.
+
+Task 16: Determine the Smallest of Four Numbers
+Create four variables x, y, z, and w and assign them values.
+Use nested if statements to find and print the smallest value among the four numbers.
+
+Task 17: Determine the Type of Triangle
+Create three variables a, b, and c representing the sides of a triangle.
+Use nested if statements to determine if the triangle is equilateral, isosceles, or scalene.
+Print the type of triangle.
+
+Task 18: Menu Selection Using Switch
+Create a variable option and assign it a value between 1 and 5.
+Use a switch statement to print the selected option:
+1: "Option 1 selected"
+2: "Option 2 selected"
+3: "Option 3 selected"
+4: "Option 4 selected"
+5: "Option 5 selected"
+For any other value, print "Invalid option".
+
+Task 19: Check If a Character is a Vowel or Consonant
+Create a variable char and assign it a character.
+Use a switch statement to check if the character is a vowel (a, e, i, o, u) or a consonant.
+Print the result.
+
+Task 20: Determine the Largest and Smallest of Five Numbers
+Create five variables a, b, c, d, and e and assign them values.
+Use nested if statements to find and print the largest and smallest values among the five numbers.
+csharp
