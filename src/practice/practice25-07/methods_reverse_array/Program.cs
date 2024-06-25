@@ -28,7 +28,7 @@
 
             for(int i = 0; i < ints.Length; i++)
             {
-                reverseArray[i] = ints[(ints.Length - i) - 1];
+                reverseArray[i] = ints[(ints.Length - 1) - i];
             }
 
             return reverseArray;
