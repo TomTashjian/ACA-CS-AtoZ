@@ -1,0 +1,103 @@
+Declare and Assign Enum Constants:
+Declare an enum representing different weather conditions (e.g., Sunny, Cloudy, Rainy). Assign one of its constants to a variable and print a message based on the weather.
+
+Language Translation Enum:
+Create an enum for languages (e.g., English, Spanish, French). Implement a switch case that translates a given word from English to the selected language.
+
+Custom Enum Properties:
+Extend the language enum by adding properties like the official name of the language or its ISO code.
+Example:
+
+enum Languages
+{
+    English,
+    Spanish,
+    French
+    // ... other languages
+}
+
+// Add properties:
+string GetOfficialName(Languages lang)
+{
+    switch (lang)
+    {
+        case Languages.English:
+            return "English";
+        case Languages.Spanish:
+            return "Español";
+        case Languages.French:
+            return "Français";
+        // ... other cases
+        default:
+            return "Unknown";
+    }
+}
+
+Enum with Associated Values:
+Create an enum for different types of vehicles (e.g., Car, Bus, Bicycle). Each enum value can have associated properties like maximum speed, fuel efficiency, etc.
+
+Weekdays Enum:
+Define an enum for weekdays (e.g., Monday, Tuesday, …). Use it to determine whether today is a working day or a weekend day.
+
+Seasons Enum:
+Create an enum for seasons (e.g., Spring, Summer, Autumn, Winter). Write a program that displays the current season based on the month.
+
+User Role Enum:
+Define an enum for user roles (e.g., Admin, Moderator, User). Use it to control access permissions in your application.
+
+Traffic Light Enum:
+Implement an enum for traffic light colors (e.g., Red, Yellow, Green). Simulate a traffic light sequence using a loop.
+
+File Extensions Enum:
+Create an enum for common file extensions (e.g., .txt, .jpg, .pdf). Use it to validate file uploads.
+
+Pizza Toppings Enum:
+Design an enum for pizza toppings (e.g., Pepperoni, Mushroom, Onion). Allow users to customize their pizza order using this enum.
+
+
+
+Set Bit Using Bitwise OR:
+Declare an enum representing days of the week (e.g., Monday, Tuesday, …).
+Set a specific day (e.g., Tuesday) using the bitwise OR operator (|).
+
+Clear Bit Using Bitwise AND with Negation:
+Create an enum for file permissions (e.g., Read, Write, Execute).
+Clear the Write permission using bitwise AND with negation (& ~).
+
+Combine Multiple Flags:
+Define an enum for user roles (e.g., Admin, Moderator, User).
+Combine roles (e.g., Admin | Moderator) to represent a user with multiple roles.
+
+Check If a Flag Is Set:
+Create an enum for font styles (e.g., Bold, Italic, Underline).
+Check if a given font style (e.g., Bold) is set using bitwise AND (&).
+
+Toggle a Flag On/Off:
+Define an enum for game settings (e.g., SoundOn, MusicOn, FullScreen).
+Toggle the SoundOn setting using bitwise XOR (^)
+
+Weekend Days Combination:
+Extend the days-of-the-week enum to include a Weekend combination (Saturday and Sunday).
+Calculate the weekend days using bitwise OR (|).
+
+Custom Permissions Enum:
+Create an enum for custom permissions (e.g., Read, Write, Delete, Execute).
+Implement a method that checks if a user has a specific combination of permissions.
+
+Flags for UI Elements:
+Define an enum for UI elements (e.g., Button, TextBox, Checkbox).
+Use bitwise operations to manage which UI elements are visible or enabled.
+
+Binary Representation of Enum Values:
+Convert an integer value (e.g., 37) to an enum type using casting.
+Display the binary representation of the resulting enum value.
+
+
+
+Flags Enum with Multiple Selections:
+Create an enum for different pizza toppings (e.g., Pepperoni, Mushroom, Onion, Olives).
+Allow users to select multiple toppings using bitwise operations. For example, a pizza with both pepperoni and mushrooms would be represented as Pepperoni | Mushroom.
+
+Enum-Based Strategy Pattern:
+Define an enum for payment gateways (e.g., PayPal, Stripe, CreditCard).
+Implement a strategy pattern where each enum value corresponds to a different payment processing strategy.
