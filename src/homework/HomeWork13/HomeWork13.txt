@@ -1,0 +1,25 @@
+Basic Interface Implementation:
+Create an interface called IShape with a method CalculateArea().
+Implement this interface in classes for different shapes (e.g., Circle, Rectangle, Triangle). 
+Each class should provide its own implementation of the area calculation.
+Create instances of these shapes and calculate their areas.
+
+Explicit Interface Implementation:
+Define an interface IAnimal with methods Eat() and Sleep().
+Create a class Dog that implements IAnimal. Implement the methods explicitly (using the IAnimal. prefix).
+Create a Dog object and call the Eat() and Sleep() methods.
+
+Multiple Interfaces:
+Create an interface IPlayable with methods Play() and Pause().
+Define another interface IRecordable with methods Record() and StopRecording().
+Create a class MediaPlayer that implements both interfaces.
+Create an instance of MediaPlayer and test its play, pause, record, and stop recording functionality.
+
+Custom Interface Properties:
+Design an interface IStudent with properties Name, Age, and Grade.
+Create a class Student that implements this interface. Students should set values for these properties and retrieve them.
+
+Advanced Challenge: Dependency Injection:
+Create an interface ILogger with a method Log(string message).
+Implement two classes: ConsoleLogger (logs to console) and FileLogger (logs to a file).
+Create a service class that accepts an ILogger instance via constructor injection and uses it to log messages.
