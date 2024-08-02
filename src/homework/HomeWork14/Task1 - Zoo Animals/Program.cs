@@ -18,7 +18,7 @@ namespace Task1
                 .Add(new AnimalCollection { Name = "Tiger" })
                 .Add(new AnimalCollection { Name = "Bear" });
 
-            Zookeeper zoo = new Zookeeper(animalCollection);
+            Zoo zoo = new Zoo(animalCollection);
 
             foreach (AnimalCollection animal in zoo)
             {
