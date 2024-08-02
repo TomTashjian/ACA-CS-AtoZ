@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2 - Explicit Interface 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3 - Multiple Interfaces", "Task3 - Multiple Interfaces\Task3 - Multiple Interfaces.csproj", "{C3752096-1450-41D9-8592-BF9BF43A5018}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4 - Custom Interface Properties", "Task4 - Custom Interface Properties\Task4 - Custom Interface Properties.csproj", "{A6906D10-89C8-4A12-A310-4CE74DF8868C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{C3752096-1450-41D9-8592-BF9BF43A5018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3752096-1450-41D9-8592-BF9BF43A5018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3752096-1450-41D9-8592-BF9BF43A5018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6906D10-89C8-4A12-A310-4CE74DF8868C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6906D10-89C8-4A12-A310-4CE74DF8868C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6906D10-89C8-4A12-A310-4CE74DF8868C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6906D10-89C8-4A12-A310-4CE74DF8868C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
