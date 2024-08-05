@@ -1,0 +1,56 @@
+Custom Range Generator:
+Create a custom range generator using yield return.
+The generator should take a start value and an end value and produce all integers in that range.
+Example usage: foreach (var number in RangeGenerator(5, 10)) { Console.Write(number + " "); } should output 5 6 7 8 9 10
+
+Create a custom linked list using yield return.
+Implement methods like Add, Remove, and Contains.
+Example: var myList = new CustomLinkedList<int>(); myList.Add(10); myList.Add(20); myList.Add(30);.
+
+Generate the Fibonacci sequence using yield return.
+Create an iterator that produces Fibonacci numbers up to a specified limit.
+Example: foreach (var fib in FibonacciSequence(100)) { Console.Write(fib + " "); }.
+
+
+Bookstore Management System Requirements
+
+1. Customer View
+Customers can:
+Explore available books in the store.
+Browse books by categories (e.g., Fiction, Non-Fiction, Science, etc.).
+View book details (title, author, price, description, etc.).
+Add books to their shopping cart.
+Place orders for selected books.
+View their own ordered books (order history).
+
+2. Admin View
+Administrators have additional privileges:
+Manage book inventory:
+Add new books to the system.
+Update book information (e.g., price, stock quantity, description).
+Delete books that are no longer available.
+Manage book categories (add, edit, delete).
+
+4. Book Inventory
+Each book has the following attributes:
+Title
+Author(s)
+ISBN
+Price
+Stock quantity
+Description
+Category (e.g., Fiction, Mystery, Science Fiction, etc.)
+
+5. Shopping Cart
+Users can add books to their shopping cart.
+Users can remove items from the cart.
+
+6. Order Processing
+When a user places an order:
+The system deducts the ordered quantity from the book’s stock.
+An order confirmation email is sent to the user.
+Orders are stored in the txt document(json format) for future reference.
+
+7. Additional Features (Optional)
+Search functionality: Users can search for books by title, author, or category.
+Pagination: Display books in pages to improve performance.
