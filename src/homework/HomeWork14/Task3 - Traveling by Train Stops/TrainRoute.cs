@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    internal class Train_Route : IEnumerator
+    internal class TrainRoute : IEnumerator
     {
-        private List<Train_Station> _trainStations = new List<Train_Station>();
+        private List<TrainStation> _trainStations = new List<TrainStation>();
         private int _currentIndex = -1;
-        public Train_Route(List<Train_Station> trainStations) 
+        public TrainRoute(List<TrainStation> trainStations) 
         {
             _trainStations = trainStations;
         }

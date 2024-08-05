@@ -11,12 +11,12 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            Train_Ticket.TicketType ticketType = Train_Ticket.TicketType.Platinum;
+            TrainTicket.TicketType ticketType = TrainTicket.TicketType.Platinum;
 
-            Train_Ticket ticket = new Train_Ticket(ticketType);
+            TrainTicket ticket = new TrainTicket(ticketType);
 
             Console.WriteLine($"Here are the stations included in {ticketType} type ticket:");
-            foreach (Train_Station station in ticket)
+            foreach (TrainStation station in ticket)
             {
                 Console.WriteLine(station.Name);
             }

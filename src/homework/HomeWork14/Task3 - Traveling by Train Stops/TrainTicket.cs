@@ -7,29 +7,29 @@ using System.Threading.Tasks;
 
 namespace Task3
 {
-    internal class Train_Ticket : IEnumerable
+    internal class TrainTicket : IEnumerable
     {
-        private List<Train_Station> _trainStations = new List<Train_Station>();
-        private List<Train_Station> _cityZoneA = new List<Train_Station>() 
+        private List<TrainStation> _trainStations = new List<TrainStation>();
+        private List<TrainStation> _cityZoneA = new List<TrainStation>() 
         {
-            new Train_Station() { Name = "Zone A - Station A1" },
-            new Train_Station() { Name = "Zone A - Station A2" },
-            new Train_Station() { Name = "Zone A - Station A3" }
+            new TrainStation() { Name = "Zone A - Station A1" },
+            new TrainStation() { Name = "Zone A - Station A2" },
+            new TrainStation() { Name = "Zone A - Station A3" }
         };                                       
-        private List<Train_Station> _cityZoneB = new List<Train_Station>() 
+        private List<TrainStation> _cityZoneB = new List<TrainStation>() 
         {                                        
-            new Train_Station() { Name = "Zone B - Station B1" },
-            new Train_Station() { Name = "Zone B - Station B2" },
-            new Train_Station() { Name = "Zone B - Station B3" }
+            new TrainStation() { Name = "Zone B - Station B1" },
+            new TrainStation() { Name = "Zone B - Station B2" },
+            new TrainStation() { Name = "Zone B - Station B3" }
         };                                       
-        private List<Train_Station> _cityZoneC = new List<Train_Station>()
+        private List<TrainStation> _cityZoneC = new List<TrainStation>()
         {                                        
-            new Train_Station() { Name = "Zone C - Station C1" },
-            new Train_Station() { Name = "Zone C - Station C2" },
-            new Train_Station() { Name = "Zone C - Station C3" }
+            new TrainStation() { Name = "Zone C - Station C1" },
+            new TrainStation() { Name = "Zone C - Station C2" },
+            new TrainStation() { Name = "Zone C - Station C3" }
         };
 
-        public Train_Ticket(TicketType ticketType)
+        public TrainTicket(TicketType ticketType)
         {
             switch (ticketType)
             {
@@ -56,7 +56,7 @@ namespace Task3
         }
         public IEnumerator GetEnumerator()
         {
-            return new Train_Route(_trainStations);
+            return new TrainRoute(_trainStations);
         }
     }
 }

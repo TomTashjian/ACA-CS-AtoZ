@@ -12,7 +12,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1 - Zoo Animals", "Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2 - Library Bookshelf", "Task2 - Library Bookshelf\Task2 - Library Bookshelf.csproj", "{D2A0CEB1-A3CA-4967-A878-E5D223856065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3 - Traveling by Train Stops", "Task3 - Traveling by Train Stops\Task3 - Traveling by Train Stops.csproj", "{9096A1CE-C390-4343-A706-6200BE0A9628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3 - Traveling by Train Stops", "Task3 - Traveling by Train Stops\Task3 - Traveling by Train Stops.csproj", "{9096A1CE-C390-4343-A706-6200BE0A9628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4 - City Attractions Enumerator", "Task4 - City Attractions Enumerator\Task4 - City Attractions Enumerator.csproj", "{6AACEB19-6AE1-45A8-900E-989182D38C2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{9096A1CE-C390-4343-A706-6200BE0A9628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9096A1CE-C390-4343-A706-6200BE0A9628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9096A1CE-C390-4343-A706-6200BE0A9628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AACEB19-6AE1-45A8-900E-989182D38C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AACEB19-6AE1-45A8-900E-989182D38C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AACEB19-6AE1-45A8-900E-989182D38C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AACEB19-6AE1-45A8-900E-989182D38C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
