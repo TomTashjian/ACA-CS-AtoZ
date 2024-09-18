@@ -43,6 +43,13 @@ Search functionality: Users can search for books by title, author, or category.
 Pagination: Display books in pages to improve performance.
  */
 
+
+/*
+Ideas:
+1. Create an Interface called IStoreItem that is the contract for the Book class that implements it, 
+in an attempt to generalize a store item. 
+ */
+
 namespace Task4
 {
     internal class Program
