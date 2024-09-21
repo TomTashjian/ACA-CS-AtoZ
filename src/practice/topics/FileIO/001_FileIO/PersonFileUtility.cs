@@ -8,7 +8,7 @@ namespace _001_FileIO
 {
     internal static class PersonFileUtility
     {
-        public static string GetPersonString(Person person, bool addLabel = false)
+        public static string ConvertPersonIntoCSVString(Person person, bool addLabel = false)
         {
             string result = "";
             if (addLabel)
@@ -17,6 +17,19 @@ namespace _001_FileIO
             }
             result += $"{person.FirstName}, {person.LastName}, {person.BirthDate}";
             return result;
+        }
+
+        public static Person ParseCSVStringIntoPerson(string personString)
+        {
+            string[] strings = personString.Split(',');
+
+            Person person = new Person()
+            {
+                FirstName = strings[0].Trim(),
+                LastName = strings[1].Trim(),
+                BirthDate = DateOnly.Parse(strings[2].Trim())
+            };
+            return person;
         }
     }
 }
