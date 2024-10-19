@@ -1,0 +1,6 @@
+@ECommerceSystem.Api_HostAddress = http://localhost:5297
+
+GET {{ECommerceSystem.Api_HostAddress}}/ecommercesystem/
+Accept: application/json
+
+###
