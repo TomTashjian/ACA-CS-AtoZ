@@ -1,0 +1,48 @@
+Task 1: Creating Basic Middleware
+Create a basic custom middleware that logs incoming requests to the console.
+
+Create a custom middleware class.
+This middleware should log the HTTP method (GET, POST, etc.), the URL, and the timestamp of each request.
+Make sure to use await _next(context) to pass control to the next middleware in the pipeline.
+Hint: Use app.Use() to add middleware to the pipeline.
+
+
+Task 2: Handling Responses with Middleware
+Create middleware that modifies the response.
+
+Write a middleware that adds a custom header (e.g., X-Custom-Header: Middleware-Test) to all outgoing HTTP responses.
+The custom header should contain a string value indicating the middleware name and timestamp of the response.
+
+Task 3: Conditional Middleware
+Create conditional middleware execution.
+
+Write middleware that only executes for specific types of HTTP requests (e.g., only for POST requests).
+If the request is of a different type (GET, PUT, DELETE), the middleware should skip execution but still pass the request to the next middleware in the pipeline.
+Hint: Use conditional checks based on the HttpContext.Request.Method.
+
+Task 4: Exception Handling Middleware
+Create middleware for global exception handling.
+
+Create middleware that catches any unhandled exceptions thrown during the request pipeline and logs the error to a file.
+The middleware should return a generic error message (500 Internal Server Error) in the response.
+
+Task 5: Configuring Multiple Middlewares
+Configure multiple middlewares and understand the pipeline.
+
+Add at least 3 middlewares to the pipeline.
+Document the order of middleware execution by adding logs at the start and end of each middleware’s execution.
+Ensure that the order of execution is correct and affects the request/response flow as expected.
+
+Task 6: Middleware to Track User Activity
+Create middleware that tracks and logs user activity.
+
+Write middleware that logs user activities, such as the pages they visited and how long they spent on each page.
+Store these logs in a local file or in-memory storage.
+If the user revisits a page, update the existing record with the new time spent
+
+Bonus Task: Middleware for Authentication
+Implement simple token-based authentication middleware.
+
+Create middleware that checks for a token (JWT or custom token) in the request header.
+If the token is missing or invalid, return a 401 Unauthorized response.
+If the token is valid, allow the request to proceed to the next middleware.

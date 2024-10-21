@@ -1,0 +1,69 @@
+# Project Requirements Document for ASP.NET Web API
+
+## 1. Introduction
+
+### 1.1 Purpose
+The purpose of this document is to outline the requirements for the development of an ASP.NET Web API. The API will manage a set of domain entities related to a fictional e-commerce system.
+
+### 1.2 Scope
+The API will handle CRUD operations for the following domain entities:
+- Product
+- Category
+- Order
+- Customer
+
+## 2. Functional Requirements
+
+### 2.1 Product
+- **Create Product**: The API should allow adding a new product with details such as name, description, price, and category.
+- **Retrieve Product**: The API should allow retrieving product details by product ID.
+- **Update Product**: The API should allow updating the details of an existing product.
+- **Delete Product**: The API should allow deleting a product by ID.
+
+### 2.2 Category
+- **Create Category**: The API should allow adding a new category with details such as name and description.
+- **Retrieve Category**: The API should allow retrieving category details by category ID.
+- **Update Category**: The API should allow updating the details of an existing category.
+- **Delete Category**: The API should allow deleting a category by ID.
+
+### 2.3 Order
+- **Create Order**: The API should allow creating a new order with details such as order date, customer ID, and a list of product IDs.
+- **Retrieve Order**: The API should allow retrieving order details by order ID.
+- **Update Order**: The API should allow updating the details of an existing order.
+- **Delete Order**: The API should allow deleting an order by ID.
+
+### 2.4 Customer
+- **Create Customer**: The API should allow adding a new customer with details such as name, email, and address.
+- **Retrieve Customer**: The API should allow retrieving customer details by customer ID.
+- **Update Customer**: The API should allow updating the details of an existing customer.
+- **Delete Customer**: The API should allow deleting a customer by ID.
+
+
+### 3.1 Documentation
+- The API should be documented using Swagger/OpenAPI.
+
+## 4. API Endpoints
+
+### 4.1 Product Endpoints
+- POST `/api/products` - Create Product
+- GET `/api/products/{id}` - Retrieve Product
+- PUT `/api/products/{id}` - Update Product
+- DELETE `/api/products/{id}` - Delete Product
+
+### 4.2 Category Endpoints
+- POST `/api/categories` - Create Category
+- GET `/api/categories/{id}` - Retrieve Category
+- PUT `/api/categories/{id}` - Update Category
+- DELETE `/api/categories/{id}` - Delete Category
+
+### 4.3 Order Endpoints
+- POST `/api/orders` - Create Order
+- GET `/api/orders/{id}` - Retrieve Order
+- PUT `/api/orders/{id}` - Update Order
+- DELETE `/api/orders/{id}` - Delete Order
+
+### 4.4 Customer Endpoints
+- POST `/api/customers` - Create Customer
+- GET `/api/customers/{id}` - Retrieve Customer
+- PUT `/api/customers/{id}` - Update Customer
+- DELETE `/api/customers/{id}` - Delete Customer
