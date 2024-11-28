@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloningService", "CloningService\CloningService.csproj", "{46928C08-E8A8-4B77-BBA9-D2B19F8FDEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloningService.UnitTests", "CloningServiceTests\CloningService.UnitTests.csproj", "{5B177165-2E20-4F42-AA74-1BCE06EE3ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46928C08-E8A8-4B77-BBA9-D2B19F8FDEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46928C08-E8A8-4B77-BBA9-D2B19F8FDEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46928C08-E8A8-4B77-BBA9-D2B19F8FDEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46928C08-E8A8-4B77-BBA9-D2B19F8FDEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B177165-2E20-4F42-AA74-1BCE06EE3ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B177165-2E20-4F42-AA74-1BCE06EE3ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B177165-2E20-4F42-AA74-1BCE06EE3ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B177165-2E20-4F42-AA74-1BCE06EE3ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E75C8883-DFDB-402B-A8C9-82572486A6BE}
+	EndGlobalSection
+EndGlobal
